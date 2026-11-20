@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ⚡ Prime Squad Hub
 
-## Getting Started
+**A Next.js web project for a gaming community experience.**
 
-First, run the development server:
+[![Next.js](https://img.shields.io/badge/Next.js-Framework-000000?logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-Web%20Development-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Project](https://img.shields.io/badge/Status-In%20Development-7C3AED)](https://github.com/sneetesh594-alt/prime-squad-hub)
+
+## 🎮 Vision
+
+Prime Squad Hub is a gaming-oriented website project. The repository contains a Next.js application; specific features and production readiness should be verified against the code before being advertised as shipped.
+
+## 🛠️ Local setup
+
+Install the Node.js version supported by the project's `package.json` and lockfile. From the repository root:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open **http://localhost:3000**.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+> If the repository uses a different package manager or scripts, follow its lockfile and `package.json` instead.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🧭 Developer notes
 
-## Learn More
+- Keep the existing application and history intact.
+- Keep secrets in environment variables, never client bundles or Git history.
+- Verify build and deployment before publishing a public link.
+- Use responsive layouts and accessible navigation.
 
-To learn more about Next.js, take a look at the following resources:
+## 🔗 Related work
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [StreamGrabber AI](https://github.com/sneetesh594-alt/streamgrabber-ai)
+- [Prime Rush Guardian](https://github.com/sneetesh594-alt/prime-rush-guardian)
+- [Discord Bot](https://github.com/sneetesh594-alt/Discord-bot)
+- [HRZ Gaming](https://github.com/sneetesh594-alt/hrzgaming)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Maintainer:** [sneetesh594-alt](https://github.com/sneetesh594-alt)
